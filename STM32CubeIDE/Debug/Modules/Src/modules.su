@@ -1,0 +1,10 @@
+modules.c:18:6:Hal_Regist_ISR	16	static
+modules.c:32:6:SysTick_Handler_Callback	16	static
+modules.c:41:6:Multi_Timer_Init	8	static
+modules.c:52:9:read_button1_GPIO	8	static
+modules.c:57:9:read_button2_GPIO	8	static
+modules.c:62:6:Multi_Button_Init	8	static
+modules.c:94:6:timer1_callback	8	static
+modules.c:100:6:timer2_callback	8	static
+modules.c:106:6:BTN1_PRESS_DOWN_Handler	16	static
+modules.c:111:6:BTN2_PRESS_DOWN_Handler	16	static

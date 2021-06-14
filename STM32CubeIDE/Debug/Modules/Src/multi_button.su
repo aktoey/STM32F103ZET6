@@ -1,0 +1,7 @@
+multi_button.c:19:6:button_init	24	static
+multi_button.c:35:6:button_attach	24	static
+multi_button.c:45:12:get_button_event	16	static
+multi_button.c:55:6:button_handler	24	static
+multi_button.c:154:5:button_start	24	static
+multi_button.c:171:6:button_stop	24	static
+multi_button.c:189:6:button_ticks	16	static
