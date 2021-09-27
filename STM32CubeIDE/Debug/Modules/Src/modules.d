@@ -1,5 +1,4 @@
-Modules/Src/modules.o: \
- E:/Project/Github/STM32F103ZET6/Modules/Src/modules.c \
+Modules/Src/modules.o: E:/Github/STM32F103ZET6/Modules/Src/modules.c \
  ../../Modules/Inc/modules.h ../../Modules/Inc/multi_timer.h \
  ../../Modules/Inc/multi_button.h ../../Core/Inc/gpio.h \
  ../../Core/Inc/main.h \

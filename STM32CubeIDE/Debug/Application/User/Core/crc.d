@@ -1,6 +1,5 @@
-Application/User/Core/crc.o: \
- E:/Project/Github/STM32F103ZET6/Core/Src/crc.c ../../Core/Inc/crc.h \
- ../../Core/Inc/main.h \
+Application/User/Core/crc.o: E:/Github/STM32F103ZET6/Core/Src/crc.c \
+ ../../Core/Inc/crc.h ../../Core/Inc/main.h \
  ../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h \
  ../../Core/Inc/stm32f1xx_hal_conf.h \
  ../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h \

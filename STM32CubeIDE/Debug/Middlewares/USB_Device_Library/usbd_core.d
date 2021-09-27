@@ -1,5 +1,5 @@
 Middlewares/USB_Device_Library/usbd_core.o: \
- E:/Project/Github/STM32F103ZET6/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c \
+ E:/Github/STM32F103ZET6/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c \
  ../../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h \
  ../../USB_DEVICE/Target/usbd_conf.h ../../Core/Inc/main.h \
  ../../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h \

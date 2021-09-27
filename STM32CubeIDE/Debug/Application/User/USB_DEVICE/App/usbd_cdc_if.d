@@ -1,6 +1,6 @@
 Application/User/USB_DEVICE/App/usbd_cdc_if.o: \
- E:/Project/Github/STM32F103ZET6/USB_DEVICE/App/usbd_cdc_if.c \
- E:/Project/Github/STM32F103ZET6/USB_DEVICE/App/usbd_cdc_if.h \
+ E:/Github/STM32F103ZET6/USB_DEVICE/App/usbd_cdc_if.c \
+ E:/Github/STM32F103ZET6/USB_DEVICE/App/usbd_cdc_if.h \
  ../../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h \
  ../../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
  ../../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h \
@@ -36,7 +36,7 @@ Application/User/USB_DEVICE/App/usbd_cdc_if.o: \
  ../../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
  ../../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h
 
-E:/Project/Github/STM32F103ZET6/USB_DEVICE/App/usbd_cdc_if.h:
+E:/Github/STM32F103ZET6/USB_DEVICE/App/usbd_cdc_if.h:
 
 ../../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h:
 

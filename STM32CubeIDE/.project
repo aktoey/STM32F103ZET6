@@ -35,7 +35,7 @@
 		<link>
 			<name>Modules</name>
 			<type>2</type>
-			<location>E:/Project/Github/STM32F103ZET6/Modules</location>
+			<location>E:/Github/STM32F103ZET6/Modules</location>
 		</link>
 		<link>
 			<name>stm32f103zet6.ioc</name>

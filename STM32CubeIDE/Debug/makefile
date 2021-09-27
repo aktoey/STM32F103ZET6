@@ -66,8 +66,8 @@ all: main-build
 main-build: stm32f103zet6.elf secondary-outputs
 
 # Tool invocations
-stm32f103zet6.elf: $(OBJS) $(USER_OBJS) E:\Project\Github\STM32F103ZET6\STM32CubeIDE\STM32F103ZETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "stm32f103zet6.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"E:\Project\Github\STM32F103ZET6\STM32CubeIDE\STM32F103ZETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stm32f103zet6.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+stm32f103zet6.elf: $(OBJS) $(USER_OBJS) E:\Github\STM32F103ZET6\STM32CubeIDE\STM32F103ZETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "stm32f103zet6.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"E:\Github\STM32F103ZET6\STM32CubeIDE\STM32F103ZETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stm32f103zet6.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
